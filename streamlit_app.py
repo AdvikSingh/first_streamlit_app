@@ -46,7 +46,7 @@ except URLError as e:
 # Output the data in tabular format
 
 
-streamlit.stop()
+#streamlit.stop()
 
 #### Snowflake Connector test
 
