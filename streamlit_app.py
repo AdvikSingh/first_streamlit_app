@@ -45,13 +45,10 @@ except URLError as e:
 # Normalize/flatten the JSON response 
 # Output the data in tabular format
 
-
-#streamlit.stop()
-
 #### Snowflake Connector test
 
-my_cur = my_cnx.cursor()
-#my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
+# my_cur = my_cnx.cursor()
+# my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 
 
 #my_data_row = my_cur.fetchone()
@@ -76,3 +73,4 @@ if streamlit.button('Get Fruit Load List'):
 # streamlit.write('Thanks for adding ', add_my_fruit)
 
 # my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+#streamlit.stop()
